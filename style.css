@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Segoe WP";
+  src: url(assets/fonts/segoe-wp-cufonfonts/SegoeWP.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-image: url("assets/Layer\ 20.svg");
+  height: 565px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.wrapper-header {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 112px;
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.logotext {
+  position: absolute;
+  left: 101px;
+  bottom: 21px;
+  font-family: "Segoe WP", Arial, sans-serif;
+  font-size: 41px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.sub-nav1 {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 450px;
+  height: 40px;
+  background-color: #f5c506;
+  opacity: 0.27;
+}
+
+.sub-nav2 {
+  position: absolute;
+  right: 4px;
+  bottom: 5px;
+  width: 450px;
+  height: 40px;
+  background-color: #f5c506;
+  opacity: 0.27;
+}
+
+nav {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  width: 450px;
+  height: 40px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: #9b7d08;
+  font-family: "Segoe WP", Arial, sans-serif;
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 172px;
+  background-color: #f5c506;
+  border-right: 1px solid #dcb105;
+}
+
+.about-us div {
+  width: 95px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  background-color: #f5c506;
+  border-right: 1px solid #dcb105;
+}
+
+.services div {
+  width: 95px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 146px;
+  background-color: #f5c506;
+}
+
+.contact div {
+  width: 95px;
+}
+
+
