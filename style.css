@@ -3,6 +3,16 @@
   src: url(assets/fonts/segoe-wp-cufonfonts/SegoeWP.ttf);
 }
 
+@font-face {
+  font-family: "Asap";
+  src: url(assets/fonts/asap/Asap-Regular.otf);
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(assets/fonts/segoe-ui-4-cufonfonts/Segoe\ UI.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -33,6 +43,7 @@ header {
   left: 101px;
   bottom: 21px;
   font-family: "Segoe WP", Arial, sans-serif;
+  text-transform: uppercase;
   font-size: 41px;
   letter-spacing: 0px;
   color: #ffffff;
@@ -67,6 +78,7 @@ nav {
   width: 450px;
   height: 40px;
   font-size: 17px;
+  text-transform: uppercase;
   letter-spacing: 0px;
   color: #9b7d08;
   font-family: "Segoe WP", Arial, sans-serif;
@@ -111,4 +123,203 @@ nav {
   width: 95px;
 }
 
+.wrapper-main-top {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.player {
+  position: relative;
+  max-width: 549px;
+  max-height: 327px;
+  top: -397px;
+  left: 10px;
+}
+
+video {
+  position: absolute;
+  max-width: 549px;
+  height: 327px;
+  object-fit: cover;
+  object-position: 77%;
+}
+
+#play-pause-center {
+  position: absolute;
+  left: 240px;
+  top: 130px;
+  background-color: #f5c506;
+  opacity: 0.72;
+  width: 67px;
+  height: 67px;
+  border: none;
+  border-radius: 50%;
+}
+
+#play-pause-center img {
+  width: 19px;
+  height: 33px;
+  margin-left: 8px;
+}
+
+#play-pause-bottom {
+  position: absolute;
+  left: 30px;
+  top: 278px;
+  background-color: #f5c506;
+  opacity: 0.37;
+  width: 27px;
+  height: 27px;
+  border: none;
+}
+
+#play-pause-bottom img {
+  width: 10px;
+  height: 17px;
+  margin-left: 2px;
+  margin-top: 4px;
+}
+
+progress {
+  position: absolute;
+  left: 79px;
+  top: 285px;
+  width: 404px;
+  height: 12px;
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color: #f5c50662;
+  border-radius: 5px;   
+}
+
+::-webkit-progress-value {
+  background-color: #f5c507;
+  border-radius: 5px 0px 0px 5px;
+} 
+
+#mute {
+  position: absolute;
+  left: 508px;
+  top: 284px;
+  background-color: transparent;
+  border: none;
+}
+
+#mute img {
+  width: 15px;
+  height: 15px;
+}
+
+.cool, .minimal {
+  text-transform: uppercase;
+  font-size: 63px;
+  letter-spacing: 1px;
+  font-family: "Asap";
+  font-weight: 400;
+  text-align: center;
+}
+
+.cool {
+  position: relative;
+  color: #f5c506;
+  top: -317px;
+  left: 287px;
+}
+
+.minimal {
+  position: relative;
+  color: #ffffff;
+  top: -303px;
+  left: 295px;
+}
+
+.slider {
+  position: relative;
+}
+
+#slider-left, #slider-right {
+  position: absolute;
+  top: 300px;
+  width: 32px;
+  height: 57px;
+  background-color: #f5c506;
+  border: none;
+}
+
+#slider-right {
+  right: 0px;
+}
+
+#slider-left {
+  opacity: 0.72;
+  left: 0px;
+}
+
+.main-background1 {
+  width: 100%;
+  height: 212px;
+  background-image: url("assets/Layer\ 7.png");
+  margin-top: -125px;
+  box-shadow: 5px 2px 10px #000000e1;
+}
+
+.wrapper-main-icon {
+  height: inherit;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 27px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  text-align: center;
+}
+
+.design, .customise, .free {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 341px;
+  border-left: 1px solid #0000001c;
+}
+
+.free {
+  border-right: 1px solid #0000001c;
+}
+
+.design img {
+  margin-left: -5px;
+  margin-top: 28px;
+}
+
+.design div {
+  margin-left: 17px;
+  margin-top: 14px;
+}
+
+.customise img {
+  margin-left: 19px;
+  margin-top: 6px;
+}
+
+.customise div {
+  margin-left: 16px;
+  margin-top: 17px;
+}
+
+.free img {
+  margin-left: -27px;
+  margin-top: 19px;
+}
+
+.free div {
+  margin-left: -23px;
+  margin-top: 13px;
+}
 
