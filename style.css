@@ -23,6 +23,16 @@
   src: url(assets/fonts/pt-sans/PTS55F.ttf);
 }
 
+@font-face {
+  font-family: "PT Sans narrow";
+  src: url(assets/fonts/pt-sans/PTN57F.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(assets/fonts/open-sans/OpenSans-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -516,6 +526,97 @@ h4 {
 #scrollstyle::-webkit-scrollbar-track {
   background-color: #ffffff50;
   border-radius: 10px;
+}
+
+.wrapper-section2 {
+  max-width: 100%;
+  height: 495px;
+  background-image: url("assets/Layer\ 32.png");
+}
+
+.section2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 135px;
+}
+
+.heading h3 {
+  font-size: 43px;
+  letter-spacing: 0px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.aside-text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 93px;
+  width: 116px;
+  height: 116px;
+  background-color: #f5c506;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.aside-text p {
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "PT Sans narrow";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.computer {
+  margin-left: 17px;
+  margin-top: -22px;
+}
+
+.tablet {
+  margin-left: -75px;
+  margin-top: -22px;
+}
+
+.mobile {
+  margin-bottom: -90px;
+  margin-left: -75px;
+}
+
+.list {
+  margin-right: -14px;
+  margin-top: 47px;
+  width: 380px;
+} 
+
+.list ul {
+  list-style-position: outside;
+  list-style-image: url("assets/Ellipse\ 4.svg");
+
+  line-height: 1.15;
+}
+
+.list li {
+font-size: 22px;
+letter-spacing: 0px;
+color: #a9a9a7;
+font-family: "Open Sans";
+font-weight: 400;
+margin-bottom: 21px;
+padding-left: 14px;
 }
 
 
